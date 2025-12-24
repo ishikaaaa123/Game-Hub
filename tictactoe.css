@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ba9b9b;
+    height: auto;
+}
+
+.text{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: rgb(15, 15, 95);
+}
+
+h3{
+    font-size: 30px;
+}
+
+.container{
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    margin: 70px auto 10px auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 8px solid #1b0844;
+}
+
+.b1 {
+    background-color: #bd6161;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+    font-size: 15vmin;
+}
+
+.b1:hover {
+    outline: none;
+    background-color: #a33f3f;
+}
+
+.victory{
+    text-align: center;
+    font-size: 50px;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+    margin-bottom: 30px;
+}
+
+button.re{
+    display: block;
+    margin:  auto;
+    margin-bottom: 100px;
+
+}
+
+.re{
+    background-color: #a45252;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-size: x-large;
+    color: white;
+    border-radius: 10px;
+}
+
+.re:hover {
+    outline: none;
+    background-color: #a22121;
+}
+

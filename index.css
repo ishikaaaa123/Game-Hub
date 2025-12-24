@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #dbeafe;
+}
+
+/* GAME HUB HEADER */
+header {
+    text-align: center;
+    font-size: 100px;          /* INCREASED */
+    font-weight: 800;
+    padding-top: 40px;
+    color: #1e3a8a;
+}
+
+/* Subline */
+.subline {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #334155;
+}
+
+/* Container spacing */
+.games-container {
+    margin-top: 100px;        /* PUSH GAMES DOWN */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.game-card {
+    background: #ffffff;
+    width: 260px;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.game-card h2 {
+    margin: 15px 0 5px;
+}
+
+.game-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Preview box */
+.preview {
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Individual previews */
+.sudoku-preview {
+    background: #eef2ff;
+    font-family: monospace;
+}
+
+.ttt-preview {
+    background: #ecfeff;
+    line-height: 1.4;
+}
+
+.memory-preview {
+    background: #fef3c7;
+    font-size: 26px;
+}
+
+/* Play button */
+.game-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #2563eb;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.game-card a:hover {
+    background: #1e40af;
+}
